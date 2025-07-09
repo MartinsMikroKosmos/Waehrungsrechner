@@ -56,4 +56,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Retrofit Bundle (enthält Retrofit, Gson Converter und OkHttp Logging)
+    implementation(libs.bundles.retrofit)
+
+    // Lifecycle Bundle (ViewModel Compose und LiveData)
+    implementation(libs.bundles.lifecycle)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
 }
